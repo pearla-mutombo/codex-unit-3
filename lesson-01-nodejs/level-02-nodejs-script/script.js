@@ -1,0 +1,1 @@
+console.log("We used the node command, followed by the js file name that we want to run in the terminal.");

@@ -1,0 +1,1 @@
+export default "You ran JavaScript with a browser!";
