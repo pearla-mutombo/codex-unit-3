@@ -8,5 +8,5 @@ function showItems (array) {
     }
 }
 
-const fruits = ["apple", "strawberry", "mango", "orange", "pear", "grapes", "kiwi", "cherry", "banana", "watermelon"];
+const fruits = ["apple", "strawberry", "mango", "orange", "tangerine", "grapes", "kiwi", "cherry", "banana", "watermelon"];
 showItems(fruits);
