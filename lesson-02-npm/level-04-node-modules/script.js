@@ -10,9 +10,9 @@ const machineInfo = machine();
 
 const platformInfo = platform();
 
-console.log(cpuInfo);
-console.log(totalmemInfo);
-console.log(freememInfo);
-console.log(machineInfo);
-console.log(platformInfo);
+console.log("CPU:", cpuInfo);
+console.log(`Memory: ${totalmemInfo}`);
+console.log(`Free: ${freememInfo}`);
+console.log(`Machine: ${machineInfo}`);
+console.log(`Platform: ${platformInfo}`);
 
