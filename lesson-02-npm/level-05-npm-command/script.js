@@ -1,0 +1,1 @@
+console.log("the npm command will automatically generate package.json with your responses.");
