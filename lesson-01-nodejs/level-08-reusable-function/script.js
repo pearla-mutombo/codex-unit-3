@@ -1,4 +1,16 @@
-const shapes = ["circle", "square", "triangle", "rectangle", "pentagon", "hexagon", "star", "heart", "octagon", "diamond"];
+const shapes = [
+    "circle", 
+    "square", 
+    "triangle", 
+    "rectangle", 
+    "pentagon", 
+    "hexagon", 
+    "star",
+     "heart", 
+     "octagon", 
+     "diamond"
+    ];
+
 for (let i = 0 ; i < shapes.length ; i++) {
     console.log (`shapes${i + 1}: ${shapes[i]}`);
 }
@@ -8,5 +20,17 @@ function showItems (array) {
     }
 }
 
-const fruits = ["apple", "strawberry", "mango", "orange", "tangerine", "grapes", "kiwi", "cherry", "banana", "watermelon"];
+const fruits = [
+    "apple", 
+    "strawberry", 
+    "mango", 
+    "orange", 
+    "tangerine", 
+    "grapes", 
+    "kiwi", 
+    "cherry", 
+    "banana", 
+    "watermelon"
+];
+
 showItems(fruits);
