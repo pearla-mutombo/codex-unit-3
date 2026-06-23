@@ -1,0 +1,20 @@
+{
+  "name": "level-05-npm-command",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/pearla-mutombo/codex-unit-3#readme",
+  "bugs": {
+    "url": "https://github.com/pearla-mutombo/codex-unit-3/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pearla-mutombo/codex-unit-3.git"
+  },
+  "license": "ISC",
+  "author": "pearla mutombo",
+  "type": "commonjs",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
