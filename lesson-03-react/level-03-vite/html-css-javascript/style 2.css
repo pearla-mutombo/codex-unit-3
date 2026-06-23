@@ -1,0 +1,13 @@
+p {
+    padding: 20px;
+    font-family: sans-serif;
+    /* This mutliplies the current font size by 1.6
+    if font-size is 16px, the line height becomes 25.6px.
+    Line-height is a CSS property that controls the amount of 
+    vertical ( like how high- it sets the height of a single line box) space between lines of text.
+    Think of it as the digital equivalent of
+    "double-spacing" or "single-spacing" a document.
+    for Percentage i think it will be line-height: 160%; and
+    for a Fixed Pixaels i think it will be line-height: 24px; */
+    line-height: 1.6; 
+}
