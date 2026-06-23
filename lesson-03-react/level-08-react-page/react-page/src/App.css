@@ -1,0 +1,31 @@
+h1 {
+  color:blueviolet;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  margin: 20px;
+  color: rgb(112, 236, 112);
+}
+
+*{
+  background-color: black;
+}
+
+#dogImages {
+  display: flex;
+  width: 50%;
+
+}
+
+img {
+  width: 600px;
+  height: 400px;
+}
+
+figcaption {
+  color: white;
+}
+
