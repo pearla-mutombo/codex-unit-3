@@ -1,0 +1,21 @@
+h1 {
+  color:coral;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  margin: 20px;
+  color: rgb(192, 239, 241);
+  padding: 10px;
+}
+
+*{
+  background-color: rgb(61, 57, 57);
+}
+
+footer {
+  text-align: center;
+  color:aqua;
+}
