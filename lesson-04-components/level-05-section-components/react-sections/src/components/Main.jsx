@@ -1,4 +1,4 @@
-export default function Main() {
+export function Main() {
   return (
     <main>
       <p>
