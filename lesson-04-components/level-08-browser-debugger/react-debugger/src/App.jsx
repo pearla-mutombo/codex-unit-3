@@ -8,6 +8,7 @@ import Main from "./components/Main.jsx";
 import Footer from "./components/Footer.jsx";
 
 function App() {
+  // debugger
   return (
     <>
       <Header />

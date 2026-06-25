@@ -1,5 +1,5 @@
 h1 {
-  color:blueviolet;
+  color:pink;
   font-family: sans-serif;
   text-align: center;
 }
@@ -7,14 +7,9 @@ h1 {
 p {
   text-align: center;
   margin: 20px;
-  color: green;
+  color: gold;
 }
 
 *{
   background-color: black;
-}
-
-footer {
-  color:cyan;
-  text-align: center;
 }

@@ -9,11 +9,11 @@ import Footer from "./components/Footer.jsx";
 
 function App() {
   return (
-    <>
-      <Header />
-      <Main />
-      <Footer />
-    </>
+   <>
+   <Header/>
+   <Main/>
+   <Footer/>
+   </>
   );
 }
 
