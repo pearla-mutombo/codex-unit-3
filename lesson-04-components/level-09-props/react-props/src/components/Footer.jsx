@@ -1,3 +1,10 @@
-export default function Footer() {
-  return <footer>@2026 Copyright create by pearla mutombo - level 03.</footer>;
+export default function Footer(props) {
+  return (
+    <footer>
+      <p>
+        @{props.year} My React app all rights reserved. Created by pearla
+        mutombo - level 03.
+      </p>
+    </footer>
+  );
 }
