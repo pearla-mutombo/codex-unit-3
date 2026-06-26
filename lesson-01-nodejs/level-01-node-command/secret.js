@@ -1,1 +1,1 @@
-export default "You ran JavaScript with a browser!";
+export default "You ran JavaScript without a browser!";
