@@ -1,0 +1,20 @@
+h1 {
+  color:cyan;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  margin: 20px;
+  color: rgb(97, 234, 97);
+}
+
+*{
+  background-color: black;
+}
+
+footer {
+  color:lightsalmon;
+  text-align: center;
+}
