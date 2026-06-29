@@ -10,16 +10,16 @@ React can use stateful variables to store values that need to persist.
 
 ## Complete these tasks
 
-1. In your system's folder explorer or file picker, copy your `react-template` folder into this level folder. The template should render `Header`, `Main`, and `Footer` components.
+1. In your system's file explorer or file picker, copy your `react-template` folder into this level folder. The template should render `Header`, `Main`, and `Footer` components.
 2. In this level folder, rename `react-template` to `use-state`.
 3. In the terminal, navigate to the `use-state` folder.
 4. Start the Vite server and open the React Debugger browser. You may need to install `node_modules`.
-5. In the `src/components/` folder, let the `Header` component render the title `Statefull Variables`.
+5. In the `src/components/` folder, let the `Header` component render the title `Stateful Variables`.
 6. In the `src/components/` folder, view the `Main` component.
-7. Above the `return` statement, add `const result = useState(0);`. You may need to import `useState` from `react`.
+7. Above the `return` statement, add `const results = useState(0);`. You may need to import `useState` from `react`.
 8. Add `debugger` on the line after `useState`.
 9. View the page in the browser. The debugger should stop in `Main`.
-10. Inspect the value of `result`. It should be an array with 2 items.
+10. Inspect the value of `results`. It should be an array with 2 items.
 11. Save the first item in variable called `count`. This is the stateful variable.
 12. Save the second item in a variable called `setCount`. This is the setter.
 13. In the `main` tag, add a `button` tag that says `Click counter`.
@@ -35,6 +35,7 @@ React can use stateful variables to store values that need to persist.
 23. Click the button. The debugger should stop in `handleClick`.
 24. Inspect `count`, run `setCount`, then press play in the debugger controls.
 25. View the page in the browser. Observe the rendered value of `count`.
+26. Click the button again.
 
 ## More Information
 
