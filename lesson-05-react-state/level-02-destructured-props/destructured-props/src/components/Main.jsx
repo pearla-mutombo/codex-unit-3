@@ -1,9 +1,9 @@
-export default function Main(props) {
+export default function Main({message}) {
   debugger;
-  const message = props.message;
+ 
   return (
     <main>
-      <p>{props.message}</p>
+      <p>{message}</p>
     </main>
   );
 }

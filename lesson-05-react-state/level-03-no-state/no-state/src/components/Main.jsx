@@ -1,12 +1,6 @@
 export default function Main() {
   let count = 0;
 
-  function handleClick(event) {
-    event.preventDefault();
-    debugger;
-    count = count + 1;
-  }
-
   return (
     <main>
       <h2>Main Content Area</h2>
@@ -26,4 +20,11 @@ export default function Main() {
       </p>
     </main>
   );
+
+  function handleClick(event) {
+    event.preventDefault();
+    // debugger;
+    count = count + 1;
+    debugger;
+  }
 }
