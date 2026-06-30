@@ -38,18 +38,18 @@ Data is commonly received from an API, then converted to React elements with the
 26. In `componentDidMount`, call the `handleData` function.
 27. View the page to make sure it runs without errors.
 28. Place `debugger` breakpoints in `Main`, `componentDidMount`, and `toCharacters`.
-29. Use the `debugger` to watch the variables change - `subjects` and `details`. Also, watch subjects render on the page.
+29. Use the `debugger` to watch the variables change - `characters` and `details`. Also, watch characters render on the page.
 30. Use `Dev Tools` to inspect the DOM. Watch the `details` tags get added to the DOM tree.
 31. In the `main` tag, add a `p` tag that explains how to use `map` to render a data array from an API.
 32. View the page to make sure it runs without errors.
 
 ## More Information
 
-- The `fetch` function accepts the URL of an API and an options object. The options object can be ommitted if the `GET` method and query parameters will be used.
+- The `fetch` function accepts the URL of an API and an options object. The options object can be omitted if the `GET` method and query parameters will be used.
 - Query parameters are used to send data through the URL.
 - All arrays have access to the `map` method.
 - The `map` method takes in a callback function.
-- The callback function receives an item of the array, the index number of the item, and the complete array. If only the item is needed, parameters for the index number and the array can be ommitted.
+- The callback function receives an item of the array, the index number of the item, and the complete array. If only the item is needed, parameters for the index number and the array can be omitted.
 - Callback functions for the `map` method often begin with `to` and describe what they produce. Example: `toCard` produces a card and `toFigure` produces a figure.
 - The `map` method returns an array of items produced by the callback function.
 - [Harry Potter API documentation](https://vlaurencena.github.io/harry-potter-openapi-swagger-ui/)

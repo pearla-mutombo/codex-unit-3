@@ -2,7 +2,7 @@
 
 ## Objective
 
-Render data into a a stateful array of React elements.
+Render data into a stateful array of React elements.
 
 ## Benefits
 
@@ -60,7 +60,7 @@ React can be used to render data with HTML.
 
 - The `for` loop accepts an initial count, the ending condition, and an incrementor.
 - The `push` method adds an item to an array.
-- `figure` and `figcapture` are semantic tags for pictures with captions.
+- `figure` and `figcaption` are semantic tags for pictures with captions.
 - Semantic tags describe the content they contain.
 - Default imports don't use curly braces. Example: `import data from "./data/data.js";`
 
