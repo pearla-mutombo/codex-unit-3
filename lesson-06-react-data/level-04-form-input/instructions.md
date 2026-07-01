@@ -36,7 +36,7 @@ Data from a form is processed differently in React.
 24. Place `debugger` breakpoints in `Main`, `handleSubmit`, and `toDetails`.
 25. Use the `debugger` to watch the variables change - `values`, `formInputs` and `details`. Also, watch characters render on the page.
 26. Use `Dev Tools` to inspect the DOM. Watch the `details` tags get added to the `output` tag.
-27. In the `main` tag, add a `p` tag that explains how to use to render form values after they are submitted.
+27. In the `main` tag, add a `p` tag that explains how to use `map` to render form values after they are submitted.
 28. View the page to make sure it runs without errors.
 
 ## More Information

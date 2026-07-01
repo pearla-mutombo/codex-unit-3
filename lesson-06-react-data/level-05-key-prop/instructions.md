@@ -22,7 +22,7 @@ Proper use of the key prop will fix some render errors.
 10. View the console messages in Dev Tools. It should display an error about the `key` prop/attribute.
 11. In the `src/components/` folder, view the file `Main.jsx`.
 12. In `toDetails`, add a second parameter - `index`.
-13. In `toDetails`, add `const key = index + formInput.label`;
+13. In `toDetails`, add `const key = index + formInput.label;`.
 14. Add the attribute `key={key}` to the `details` tag.
 15. Refresh the debugger or browser.
 16. Fill in the form inputs, then submit the form.
