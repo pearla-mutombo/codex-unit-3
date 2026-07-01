@@ -19,7 +19,7 @@ Data is commonly received from an API, then converted to React elements with the
 7. In the `src/components/` folder, view the file `Main.jsx`.
 8. Set up the component to track the mount phase. Use `useState`, `didMount`, `setDidMount`, `componentDidMount`, `useEffect`, an empty array of dependencies, and a `p` tag to render the value of `didMount`.
 9. View the page to make sure it runs without errors.
-10. In the `Main` component, on the line after `useState`, add `const [] = useState([]);`. This stateful array will contain HTML code.
+10. In the `Main` component, on the line after `useState`, add `const [] = useState();`. This stateful array will contain HTML code.
 11. Destructure the items into `characters` and `setCharacters`.
 12. In the `main` tag, render `characters` in a `section` tag.
 13. View the page to make sure it runs without errors.
