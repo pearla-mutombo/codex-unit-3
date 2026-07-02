@@ -10,7 +10,7 @@ export default function Main() {
   return (
     <main>
       <h2>Main Content Area</h2>
-      <p>Component status: DidMount {didMount.toString()}</p>
+      <p>{"Component status: DidMount " + didMount}</p>
 
       <form onSubmit={handleSubmit}>
         <label>
